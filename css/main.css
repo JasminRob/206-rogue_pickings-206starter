@@ -6,16 +6,14 @@ html {
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	font-size: 1em;
-	flex-flow: row wrap; 
 }
 
 .container{
 	max-width: 1200px;
 	width: 90%;
-	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -28,8 +26,8 @@ h3 {
 	color: black;
 	text-transform: uppercase;
 	font-weight: 700;
-	text-align: center;
 }
+
 h1 {
 	font-size:  1.875em;
 	text-align: center;
@@ -44,13 +42,18 @@ h3 {
 p {
 	font-size: 0.875em;
 	line-height: 21px;
-    padding: 0 30px;
+    
+}
+
+ul {
+    margin: 0px;
+	
 }
 
 /*The widths are in a percentage!*/
 header {
 	border-bottom: 3px solid #77a466;
-	margin: 0 auto; 
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -60,8 +63,9 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
-	
+	padding: 38px 20px 20px 20px;
+	border-bottom: 4px solid #77a466 ;
+	width: 100%;
 }
 
 header h1 span {
@@ -126,6 +130,9 @@ header nav ul li a{
 .section-three {
 	border-top: 1px solid #eee;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section-one h3 {
@@ -140,6 +147,8 @@ header nav ul li a{
 .section-two h3,
 .section-three h3 {
 	padding: 10px 30px;
+	text-align: center;
+	
 }
 
 .menu {
