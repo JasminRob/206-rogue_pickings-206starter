@@ -73,8 +73,9 @@ header h1 span {
 }
 
 header nav {
-	padding: 20 px 0;
+	padding: 20 px 10 px;
 	width: 100%;
+	
 }
 header nav ul {
 	margin: 0;
@@ -99,12 +100,10 @@ header nav ul li a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap; 
+	flex-flow: row wrap;
 }
 
-.main-image {
-	height: auto;
-}
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -130,9 +129,7 @@ header nav ul li a{
 .section-three {
 	border-top: 1px solid #eee;
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	
 }
 
 .section-one h3 {
@@ -146,9 +143,7 @@ header nav ul li a{
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
-	text-align: center;
-	
+	padding: 0px;
 }
 
 .menu {
@@ -168,7 +163,7 @@ header nav ul li a{
 
 .address {
 	font-size: 1em;
-	line-height: 24px;
+	line-height: 1.5;
 }
 
 /*The widths are in a percentage!*/
