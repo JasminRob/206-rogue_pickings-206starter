@@ -85,7 +85,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
+	padding: 10px 10px;
 	list-style: none;
 
 }
@@ -101,6 +101,7 @@ header nav ul li a{
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	
 }
 
 
@@ -128,8 +129,7 @@ header nav ul li a{
 .section-two,
 .section-three {
 	border-top: 1px solid #eee;
-	width: 100%;
-	
+	width: 33%;
 }
 
 .section-one h3 {
